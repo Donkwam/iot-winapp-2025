@@ -80,5 +80,10 @@ namespace SyntaxWinApp02
 
         public bool HasStorage() { return this.storage; }
 
+        // 깊은 복사 메서드
+        public Server DeepCopy()
+        {
+            return new Server { Name = this.Name };
+        }
     }
 }
