@@ -30,10 +30,16 @@
 
                     int progress = (int)((i * 100) / MaxVal) + 1;
                     Console.WriteLine(progress.ToString());
-                    TxtLog.Text += progress.ToString() + "\r\n";
-                    TxtLog.SelectionStart = TxtLog.Text.Length;
-                    TxtLog.ScrollToCaret(); // 스크롤을 제일 밑으로
-                    PrgProcess.Value = progress;
+                    // Task.Run 내 들어가는 UI처리 로직은
+                    this.Invoke(new Action(() =>
+                    {
+                        TxtLog.Text += progress.ToString() + "\r\n";
+                        TxtLog.SelectionStart = TxtLog.Text.Length;
+                        TxtLog.ScrollToCaret(); // 스크롤을 제일 밑으로
+                        PrgProcess.Value = progress;
+                    }));
+
+
                     Thread.Sleep(50);
                     //Application.DoEvents(); // 노 권장
                 }
