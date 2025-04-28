@@ -835,6 +835,10 @@ IoT 개발자 C#/WinApp 리포지토리 2025
         - Width / Height * 배수
         - ColumnDefinition - Width에 숫자 + *
         - RowDefinition - Height에 숫자 + *
+        - 숫자만 사용하면 크기 픽스
+        - Row, Column를 세 부분으로 나눈뒤
+        - 중앙 외는 고정된 값으로 지정
+        - 외부 Grid와 내부 Grid로 나뉘서 작업 수행
 
         <img src="./image/cs0015.png" width="700">
 
