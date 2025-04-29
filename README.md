@@ -972,6 +972,8 @@ IoT 개발자 C#/WinApp 리포지토리 2025
     9. Accent - Amber ~ Yellow 총 23개
 
 - 연습예제
+    - MahApps.Metro.Demo를 확인하면서 컨트롤 추가
+    - MahApps.Metro Github 소스를 확인필요
 
     <img src="./image/cs0021.png" width="600">
 
