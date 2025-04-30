@@ -1052,8 +1052,12 @@ IoT 개발자 C#/WinApp 리포지토리 2025
 
         <img src="./image/cs0022.png" Width="600">
 
-    - Theme를 Dark로 했을 경우
-        - Window 전체 Background를 어두운색으로 지정 후 작업
+        Dark Theme
+
+        <img src="./image/cs0023.png" Width="600">
+
+        Light Theme
+
 
 ## 10일차
 
