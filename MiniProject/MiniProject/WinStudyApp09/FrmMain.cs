@@ -6,11 +6,11 @@ using System.Windows.Forms;
 
 namespace WinStudyApp09
 {
-    public partial class Form1 : Form
+    public partial class FrmMain : Form
     {
         private DataTable table;
 
-        public Form1()
+        public FrmMain()
         {
             InitializeComponent();
             InitializeBudgetTable();

@@ -1,4 +1,4 @@
-﻿namespace WinStudyApp09
+﻿namespace cnrkgksmsrj
 {
     internal static class Program
     {
