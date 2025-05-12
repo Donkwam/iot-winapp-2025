@@ -117,8 +117,6 @@ namespace cnrkgksmsrj
         private void FrmMain_FormClosing(object sender, FormClosingEventArgs e)
         {
             MessageBox.Show("종료하시겠습니까?", "종료", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            
-
         }
 
         private void SaveFile()
@@ -149,7 +147,7 @@ namespace cnrkgksmsrj
 
         private void MstExit_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("종료하시겠습니까?", "종료", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
         }
 
     }

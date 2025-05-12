@@ -41,12 +41,12 @@
             TxtItem = new TextBox();
             menuStrip1 = new MenuStrip();
             MstObject = new ToolStripMenuItem();
-            statusStrip1 = new StatusStrip();
-            toolStripProgressBar1 = new ToolStripProgressBar();
-            toolStripStatusLabel1 = new ToolStripStatusLabel();
             MstSave = new ToolStripMenuItem();
             MstRoad = new ToolStripMenuItem();
             MstExit = new ToolStripMenuItem();
+            statusStrip1 = new StatusStrip();
+            toolStripProgressBar1 = new ToolStripProgressBar();
+            toolStripStatusLabel1 = new ToolStripStatusLabel();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvRecords).BeginInit();
             menuStrip1.SuspendLayout();
@@ -162,28 +162,8 @@
             // 
             MstObject.DropDownItems.AddRange(new ToolStripItem[] { MstSave, MstRoad, MstExit });
             MstObject.Name = "MstObject";
-            MstObject.Size = new Size(127, 20);
-            MstObject.Text = "toolStripMenuItem1";
-            // 
-            // statusStrip1
-            // 
-            statusStrip1.Items.AddRange(new ToolStripItem[] { toolStripProgressBar1, toolStripStatusLabel1 });
-            statusStrip1.Location = new Point(0, 289);
-            statusStrip1.Name = "statusStrip1";
-            statusStrip1.Size = new Size(584, 22);
-            statusStrip1.TabIndex = 3;
-            statusStrip1.Text = "statusStrip1";
-            // 
-            // toolStripProgressBar1
-            // 
-            toolStripProgressBar1.Name = "toolStripProgressBar1";
-            toolStripProgressBar1.Size = new Size(100, 16);
-            // 
-            // toolStripStatusLabel1
-            // 
-            toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            toolStripStatusLabel1.Size = new Size(121, 17);
-            toolStripStatusLabel1.Text = "toolStripStatusLabel1";
+            MstObject.Size = new Size(43, 20);
+            MstObject.Text = "파일";
             // 
             // MstSave
             // 
@@ -204,6 +184,26 @@
             MstExit.Size = new Size(180, 22);
             MstExit.Text = "종료(&X)";
             MstExit.Click += MstExit_Click;
+            // 
+            // statusStrip1
+            // 
+            statusStrip1.Items.AddRange(new ToolStripItem[] { toolStripProgressBar1, toolStripStatusLabel1 });
+            statusStrip1.Location = new Point(0, 289);
+            statusStrip1.Name = "statusStrip1";
+            statusStrip1.Size = new Size(584, 22);
+            statusStrip1.TabIndex = 3;
+            statusStrip1.Text = "statusStrip1";
+            // 
+            // toolStripProgressBar1
+            // 
+            toolStripProgressBar1.Name = "toolStripProgressBar1";
+            toolStripProgressBar1.Size = new Size(100, 16);
+            // 
+            // toolStripStatusLabel1
+            // 
+            toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            toolStripStatusLabel1.Size = new Size(121, 17);
+            toolStripStatusLabel1.Text = "toolStripStatusLabel1";
             // 
             // FrmMain
             // 
