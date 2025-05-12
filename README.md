@@ -1098,3 +1098,8 @@ Windows Forms(C#) 기반의 간단한 가계부 프로그램입니다.
 
 4. **프로그램 종료**
    - 메뉴 또는 창 종료 시 확인 메시지 표시됨
+
+  
+    https://github.com/user-attachments/assets/36938c50-60d0-4abc-92c5-ca1f3d67dc9e
+
+
