@@ -45,7 +45,6 @@
             MstRoad = new ToolStripMenuItem();
             MstExit = new ToolStripMenuItem();
             statusStrip1 = new StatusStrip();
-            toolStripProgressBar1 = new ToolStripProgressBar();
             toolStripStatusLabel1 = new ToolStripStatusLabel();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvRecords).BeginInit();
@@ -168,36 +167,31 @@
             // MstSave
             // 
             MstSave.Name = "MstSave";
-            MstSave.Size = new Size(180, 22);
+            MstSave.Size = new Size(139, 22);
             MstSave.Text = "저장(&S)";
             MstSave.Click += MstSave_Click;
             // 
             // MstRoad
             // 
             MstRoad.Name = "MstRoad";
-            MstRoad.Size = new Size(180, 22);
+            MstRoad.Size = new Size(139, 22);
             MstRoad.Text = "불러오기(&O)";
             // 
             // MstExit
             // 
             MstExit.Name = "MstExit";
-            MstExit.Size = new Size(180, 22);
+            MstExit.Size = new Size(139, 22);
             MstExit.Text = "종료(&X)";
             MstExit.Click += MstExit_Click;
             // 
             // statusStrip1
             // 
-            statusStrip1.Items.AddRange(new ToolStripItem[] { toolStripProgressBar1, toolStripStatusLabel1 });
+            statusStrip1.Items.AddRange(new ToolStripItem[] { toolStripStatusLabel1 });
             statusStrip1.Location = new Point(0, 289);
             statusStrip1.Name = "statusStrip1";
             statusStrip1.Size = new Size(584, 22);
             statusStrip1.TabIndex = 3;
             statusStrip1.Text = "statusStrip1";
-            // 
-            // toolStripProgressBar1
-            // 
-            toolStripProgressBar1.Name = "toolStripProgressBar1";
-            toolStripProgressBar1.Size = new Size(100, 16);
             // 
             // toolStripStatusLabel1
             // 
@@ -243,7 +237,6 @@
         private MenuStrip menuStrip1;
         private ToolStripMenuItem MstObject;
         private StatusStrip statusStrip1;
-        private ToolStripProgressBar toolStripProgressBar1;
         private DataGridView dgvRecords;
         private ToolStripStatusLabel toolStripStatusLabel1;
         private ToolStripMenuItem MstSave;
