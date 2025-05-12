@@ -1102,4 +1102,20 @@ Windows Forms(C#) 기반의 간단한 가계부 프로그램입니다.
   
     https://github.com/user-attachments/assets/36938c50-60d0-4abc-92c5-ca1f3d67dc9e
 
+#### 코드 설명 
+1.  btnAdd_Click() – 화면 갱신
+    - 입력값을 검증 후 Transaction 객체를 생성하여 리스트에 추가
+    - 입력창 초기화 및 UpdateDisplay() 호출
 
+2. UpdateDisplay() – 파일 저장
+    - 거래 내역을 날짜|항목|금액|구분 형식의 .txt 파일로 저장
+
+3. SaveFile() – 파일 저장
+    - 거래 내역을 날짜|항목|금액|구분 형식의 .txt 파일로 저장
+
+4. LoadFile() – 파일 불러오기
+    - 저장된 .txt 파일을 읽어와 거래 내역 리스트로 복원
+
+5.  FrmMain_FormClosing(object sender, FormClosingEventArgs e) 종료 확인
+    - 종료 시 사용자에게 확인 메시지를 띄움
+    - "아니오" 선택 시 종료 취소
